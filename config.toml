@@ -1,27 +1,20 @@
-baseURL = "https://gohugo.io"
-title = "Hugo Themes"
+baseURL = "https://ldeso.github.io/hugo-flex-demo/"
+title = "Hugo Flex Demo"
 author = "Steve Francia"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 3
 languageCode = "en"
+theme = "hugo-flex"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [privacy]
 
@@ -49,3 +42,17 @@ series = "series"
 
   [services.twitter]
     disableInlineCSS = true
+
+[markup]
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  favicon = true
+  footer = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+  noClasses = false
+  css = [ "css/emojify.css", "css/nowrap.css" ]
