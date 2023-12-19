@@ -53,6 +53,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params]
   favicon = true
+  divider = "\\2015"
   footer = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
   noClasses = false
   linkicons = "hover"
