@@ -13,9 +13,9 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 <!--more-->
 ---
 
-## YouTube Privacy Enhanced Shortcode
+## SoundCloud Shortcode
 
-{{< youtube ZJthWmvUzzc >}}
+{{< soundcloud 1353933292 >}}
 
 <br>
 
