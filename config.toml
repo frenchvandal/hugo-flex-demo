@@ -55,4 +55,5 @@ ignoreErrors = ["error-remote-getjson"]
   favicon = true
   footer = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
   noClasses = false
+  linkicons = "hover"
   css = [ "css/emojify.css", "css/nowrap.css" ]
