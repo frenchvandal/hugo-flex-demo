@@ -56,5 +56,6 @@ ignoreErrors = ["error-remote-getjson"]
   divider = "\\2015"
   footer = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
   noClasses = false
+  katex = ""
   linkicons = "hover"
   css = [ "css/emojify.css", "css/nowrap.css" ]
