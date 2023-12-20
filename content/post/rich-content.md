@@ -15,7 +15,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## SoundCloud Shortcode
 
-{{< soundcloud 1353933292 >}}
+{{< soundcloud "https://soundcloud.com/mindgameslaby/the-labyrinth-2014-donato-dozzy-closing-set" >}}
 
 <br>
 
