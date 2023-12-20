@@ -1,6 +1,5 @@
 baseURL = "https://ldeso.github.io/hugo-flex-demo/"
 title = "Hugo Flex Demo"
-author = "Steve Francia"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 paginate = 3
 languageCode = "en"
@@ -52,6 +51,7 @@ ignoreErrors = ["error-remote-getjson"]
     noClasses = false
 
 [params]
+  description = "An example site for the Hugo Flex theme."
   favicon = true
   divider = "\\2015"
   footer = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
@@ -59,3 +59,6 @@ ignoreErrors = ["error-remote-getjson"]
   katex = ""
   linkicons = "hover"
   css = [ "css/emojify.css", "css/nowrap.css" ]
+
+  [params.author]
+    name = "Steve Francia"
