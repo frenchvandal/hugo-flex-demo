@@ -53,7 +53,7 @@ ignoreErrors = ["error-remote-getjson"]
 [params]
   description = "An example site for the Hugo Flex theme."
   favicon = true
-  divider = "\\2015\\2015\\2015"
+  divider = "\\2500\\2500\\2500"
   footer = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
   noClasses = false
   katex = ""
