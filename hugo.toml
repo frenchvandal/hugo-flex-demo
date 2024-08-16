@@ -88,9 +88,5 @@ ignoreErrors = ["error-remote-getjson"]
   linkicons = "hover"
   css = [ "css/canon.css", "css/center.css", "css/emojify.css", "css/nowrap.css" ]
 
-  [params.mathdelim]
-    inline = [['\(', '\)'], ['$', '$']]
-    block = [['\[', '\]'], ['$$', '$$']]
-
   [params.author]
     name = "Steve Francia"
